@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Slider</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+   <div class="wrapper">
+    <div class="container">
+        <div class="image-container">
+             <img src="https://www.dropbox.com/s/fnifgvp7hw2kl0s/image1.jpg?raw=1" id="content1" class="active" alt="Image 1">
+             <img src="https://www.dropbox.com/s/e0biqo2vonzv6kc/image2.jpg?raw=1" id="content2" alt="Image 2">
+             <img src="https://www.dropbox.com/s/ufum3bttdsoh2qk/image3%20%281%29.jpg?raw=1" id="content3" alt="Image 3">
+             <img src="https://www.dropbox.com/s/3t7ulkg0ljpbxbk/qNIF0J.jpg?raw=1" id="content4" alt="Image 4">
+        </div>
+        
+        <div class="dot-container">
+            <button onclick="dot(1)"></button>
+            <button onclick="dot(2)"></button>
+            <button onclick="dot(3)"></button>
+            <button onclick="dot(4)"></button>
+        </div>
+ 
+        <button id="prev" onclick="prev()">&lt;</button>
+        <button id="next" onclick="next()">&gt;</button>
+     </div>
+     </div>
+   </body>
+</html>
